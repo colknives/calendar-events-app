@@ -1,24 +1,27 @@
-# event-app
+# Calendar Event App
 
-## Project setup
-```
-npm install
-```
+## Introduction
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a simple app where you can add calendar events which uses VueJS
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## System Requirements
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. [Calendar Event API](https://github.com/colknives/calendar-events-api)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Install
+
+To install, download or clone this repository.
+
+Run the following command in command line within the cloned project to install all vendor
+
+	npm install
+
+Create .env file and copy and fill up the information base on .env.example. Put the deployed url of calendar event api in VUE_APP_API
+
+Finally, run the following command in command line within the cloned project to run the app, please ensure that the API is also running in your system
+
+	npm run serve
+
+## Reference
+
+1. [VueJS](https://vuejs.org/)
